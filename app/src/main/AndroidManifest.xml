@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="h2mcom.android.whatdoyoufeel">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sun1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity"
+            android:label="@string/Cityone"
+            android:parentActivityName=".MainActivity"
+            tools:targetApi="jelly_bean">
+
+        </activity>
+
+        <activity android:name=".Main3Activity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Citytwo"
+            tools:targetApi="jelly_bean" />
+        <activity android:name=".Main4Activity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Citythree"
+            tools:targetApi="jelly_bean" />
+        <activity android:name=".Main5Activity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Cityfour"
+            tools:targetApi="jelly_bean" />
+        <activity android:name=".Main6Activity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/Cityfive"
+            tools:targetApi="jelly_bean" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">What do you feel?</string>
+    <string name="Cityfive">Fuente Palmera</string>
+    <string name="Cityfour">Bristol</string>
+    <string name="Citythree">London</string>
+    <string name="Citytwo">Kiev</string>
+    <string name="Cityone">Moscow</string>
+</resources>
